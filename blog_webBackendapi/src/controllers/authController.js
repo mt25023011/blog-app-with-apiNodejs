@@ -58,7 +58,6 @@ let register = async (req, res) => {
         
         res.status(200).json({
             message: "User created successfully",
-            data: user,
             errCode: 0
         });
     } catch (error) {

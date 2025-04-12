@@ -1,0 +1,30 @@
+
+.bg-green-500 {
+    background-color: #eaf1e8;
+}
+
+.nav_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_item {
+    margin-right: 10px;
+}
+.nav_item:hover {
+    background-color: #868682;
+}
+.nav_item-active {
+    font-weight: bold;
+    text-underline-offset: 3px;
+    border-bottom: 2px solid #000;
+}
+.nav_item a {
+    text-decoration: none;
+}
+.footer {
+    background-color: #dce3da;
+    padding: 20px 0;
+    text-align: center;
+}

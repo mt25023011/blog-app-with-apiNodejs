@@ -1,0 +1,51 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 2rem;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.navigation a:hover {
+  color: #007bff;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.home, .about, .blog {
+  padding: 1rem;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  color: #666;
+  line-height: 1.6;
+}
